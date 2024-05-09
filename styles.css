@@ -171,9 +171,13 @@ a:hover {
 
   .section__pic-container {
     display: flex;
-    height: 400px;
-    width: 400px;
+    height: 500px;
+    width: 500px;
     margin: auto 0;
+  }
+
+  .section__pic-container img{
+    border-radius: 50%;
   }
 
   .section__text {
@@ -232,7 +236,7 @@ a:hover {
 
   .btn-color-1, 
   .btn-color-2 {
-    border: #125C13 .1rem solid;
+    border: #070707 2px solid;
   }
 
   .btn-color-1:hover, 
@@ -242,13 +246,13 @@ a:hover {
   
   .btn-color-1, 
   .btn-color-2:hover {
-    background:#16FF00;
+    background:#070707;
     color: white;
   }
 
   .btn-color-1:hover {
-    background: #16FF00;
-    border: #16FF00;
+    background: #070707;
+    border: #070707;
   }
 
   .btn-color-2 {
@@ -276,7 +280,7 @@ a:hover {
   .about-containers {
     gap: 2rem;
     margin-bottom: 2rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
   
   .about-details-container {
@@ -304,8 +308,8 @@ a:hover {
     flex: 1;
     background: white;
     border-radius: 2rem;
-    border: rgb(53, 53, 53) 0.1rem solid;
-    border-color: #125C13;
+    border: #070707 2px solid;
+    border-color: #070707;
     text-align: center;
   }
 
@@ -363,10 +367,12 @@ a:hover {
 
 #projects {
     position: relative;
+    height: 100vh;
+    padding-bottom: 6rem;
   }
   
   .color-container {
-    border-color: #125C13;
+    border-color: #070707;
     background: rgb(250, 250, 250);
     width: 15rem;
   }
@@ -384,7 +390,7 @@ a:hover {
   
   .project-btn {
     color: black;
-    border-color: #125C13;
+    border-color: #070707;
   }
   
   /* CONTACT */
@@ -400,8 +406,8 @@ a:hover {
     display: flex;
     justify-content: center;
     border-radius: 2rem;
-    border: rgb(53, 53, 53) 0.1rem solid;
-    border-color: #125C13;
+    border: #070707 2px solid;
+    border-color: #070707;
     background: (250, 250, 250);
     margin: 2rem auto;
     padding: 0.5rem;
